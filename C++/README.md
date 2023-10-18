@@ -14,6 +14,7 @@
     注意：Windows下需要libstdc++-6.dll这个文件才能正常运行编译，或者把这个文件所在的路径写入系统环境变量如下：
     我的路径是：D:\Mingw\mingw64\x86_64-w64-mingw32\lib
  - 3. 类继承-Manager案例
+ - 4. 多线程运行
 
 ## 使用方式
  - Windows：vscode配置好后运行run code或者调试运行
@@ -23,4 +24,6 @@
  cd build
  cmake ..
  make
+ 运行：
+ ./xxx arg1 arg2... (Cmake中定义的可执行文件名)
  ```
